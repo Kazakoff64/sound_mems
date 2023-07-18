@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.643,=D:\WatchAndDelete\0\Delphi-BASS\BassVersions\BASS\Add-ons\BassEnc_OPUS.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.465,=D:\WatchAndDelete\0\Delphi-BASS\BassVersions\BASS\Add-ons\BassEnc_OGG.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.162,=D:\WatchAndDelete\0\Delphi-BASS\BassVersions\BASS\Add-ons\BassEnc_MP3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.982,=C:\Users\Tran\Music\iOS-Tests\2\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.073,D:\WatchAndDelete\0\Delphi-BASS\BassVersions\BASS\Add-ons\BassOPUS.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.624,=C:\Users\Tran\Videos\DelphiFMX-BASS\FMX-BASSVersion\BASS\FMX.Bass.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.547,=D:\WatchAndDelete\0\Delphi-BASS\BassVersions\BASS\Add-ons\BassEnc_FLAC.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.345,D:\WatchAndDelete\0\DelphiFMX-BASS\FMX-BASSVersion\MainFMX.fmx=D:\WatchAndDelete\0\DelphiFMX-BASS\FMX-BASSVersion\Main.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.345,D:\WatchAndDelete\0\DelphiFMX-BASS\FMX-BASSVersion\MainFMX.pas=D:\WatchAndDelete\0\DelphiFMX-BASS\FMX-BASSVersion\Main.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.667,Z:\GitHub\Delphi\sound_mems\MainFMX.pas=Z:\GitHub\Delphi\sound_mems\Main.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.667,Z:\GitHub\Delphi\sound_mems\MainFMX.fmx=Z:\GitHub\Delphi\sound_mems\Main.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.004,D:\WatchAndDelete\0\Delphi-BASS\BassVersions\BASS\Add-ons\BassFLAC.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.135,Z:\GitHub\Delphi\sound_mems\sound_mems.dproj=Z:\GitHub\Delphi\sound_mems\TestFMX.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.800,=D:\WatchAndDelete\0\Delphi-BASS\BassVersions\BASS\Add-ons\BassFLAC.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.801,=D:\WatchAndDelete\0\Delphi-BASS\BassVersions\BASS\Add-ons\BassFLAC.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.895,=D:\WatchAndDelete\0\Delphi-BASS\BassVersions\BASS\Add-ons\BassOPUS.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.577,=C:\Users\Tran\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.523,=C:\Users\Tran\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.473,D:\WatchAndDelete\0\DelphiFMX-BASS\FMX-BASSVersion\TestFMX.dproj=D:\WatchAndDelete\0\DelphiFMX-BASS\FMX-BASSVersion\Test.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.403,=C:\Users\Tran\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.002,C:\Users\Tran\Music\iOS-Tests\2\Frameworks.pas=C:\Users\Tran\Music\iOS-Tests\2\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.337,C:\Users\Tran\Music\iOS-Tests\2\Frameworks.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.354,=C:\Users\Tran\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.444,=D:\WatchAndDelete\0\Delphi-BASS\BassVersions\BASS\Add-ons\BassEnc.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.798,C:\Users\Tran\Music\1\BassLiveFX.dproj=C:\Users\Tran\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.698,C:\Users\Tran\Music\iOS-Tests\1\BassLiveFX.dproj=C:\Users\Tran\Music\iOS-Tests\1\Test.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.838,=D:\WatchAndDelete\0\Delphi-BASS\BassVersions\BASS\Add-ons\BassOPUS.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.376,D:\WatchAndDelete\0\DelphiFMX-BASS\FMX-BASSVersion\BASS\Bass.pas=D:\WatchAndDelete\0\DelphiFMX-BASS\FMX-BASSVersion\BASS\FMX.BASS.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.398,C:\Users\Tran\Music\1\Main.fmx=C:\Users\Tran\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.398,C:\Users\Tran\Music\1\Main.pas=C:\Users\Tran\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.167,=C:\Users\Tran\Downloads\Audio-Libraries-Players\BASS\iOS-Tests\4\Bass\Bass.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PMacOSX iOSSimulator="iPhone5" iOSDevice64="_iosdevice_00008030-001234D936DB802E"/>
+		<NoProfile Android="" Android64=""/>
+		<PBigSur11.6 iOSDevice64="_iosdevice_00008030-001234D936DB802E"/>
+	</ActiveMobileDevice>
+</BorlandProject>

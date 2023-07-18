@@ -1,0 +1,16 @@
+inherited Form1_Macintosh: TForm1_Macintosh
+  DesignerMasterStyle = 0
+  inherited Button9: TButton
+    Position.X = 32.000000000000000000
+    Position.Y = 192.000000000000000000
+  end
+  inherited Button1: TButton
+    Position.X = 160.000000000000000000
+    Position.Y = 192.000000000000000000
+  end
+  inherited TrackBar1: TTrackBar
+    Position.X = 8.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 16.000000000000000000
+  end
+end
