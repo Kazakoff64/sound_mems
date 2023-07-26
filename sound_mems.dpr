@@ -1,5 +1,9 @@
 program sound_mems;
 
+
+
+{$R *.dres}
+
 uses
   System.StartUpCopy,
   FMX.Forms,

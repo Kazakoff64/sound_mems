@@ -427,11 +427,20 @@
         </DeployFile>
     </ItemGroup>
     <ItemGroup Condition="'$(Platform)'=='OSX64'">
-        <DeployFile Include="Output\OSX64\Release\Test.info.plist" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="Output\Binary\FMX\OSX64\Release\sound_mems.info.plist" Condition="'$(Config)'=='Release'">
             <RemoteDir>sound_mems.app\Contents\</RemoteDir>
             <RemoteName>Info.plist</RemoteName>
             <DeployClass>ProjectOSXInfoPList</DeployClass>
             <Operation>1</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="\\Mac\Home\Downloads\baraban_1995_hq.mp3" Condition="'$(Config)'=='Release'">
+            <RemoteDir>sound_mems.app\Contents\Resources\StartUp\</RemoteDir>
+            <RemoteName>baraban_1995_hq.mp3</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
             <LocalCommand/>
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
@@ -517,6 +526,15 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
+        <DeployFile Include="\\Mac\Home\Downloads\baraban_1995_hq.mp3" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>sound_mems.app\Contents\Resources\StartUp\</RemoteDir>
+            <RemoteName>baraban_1995_hq.mp3</RemoteName>
+            <DeployClass>ProjectFile</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
         <DeployFile Include="Output\Binary\FMX\OSX64\Debug\sound_mems" Condition="'$(Config)'=='Debug'">
             <RemoteDir>sound_mems.app\Contents\MacOS\</RemoteDir>
             <RemoteName>sound_mems</RemoteName>
@@ -545,7 +563,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="Output\OSX64\Release\sound_mems" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="Output\Binary\FMX\OSX64\Release\sound_mems" Condition="'$(Config)'=='Release'">
             <RemoteDir>sound_mems.app\Contents\MacOS\</RemoteDir>
             <RemoteName>sound_mems</RemoteName>
             <DeployClass>ProjectOutput</DeployClass>
@@ -555,9 +573,9 @@
             <Overwrite>True</Overwrite>
             <Required>True</Required>
         </DeployFile>
-        <DeployFile Include="Output\OSX64\Release\Test.dSYM" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="Output\Binary\FMX\OSX64\Release\sound_mems.dSYM" Condition="'$(Config)'=='Release'">
             <RemoteDir>sound_mems.app\..\$(PROJECTNAME).app.dSYM\Contents\Resources\DWARF\</RemoteDir>
-            <RemoteName>Test</RemoteName>
+            <RemoteName>sound_mems</RemoteName>
             <DeployClass>ProjectOSXDebug</DeployClass>
             <Operation>1</Operation>
             <LocalCommand/>
@@ -591,9 +609,9 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="Output\OSX64\Release\Test.entitlements" Condition="'$(Config)'=='Release'">
+        <DeployFile Include="Output\Binary\FMX\OSX64\Release\sound_mems.entitlements" Condition="'$(Config)'=='Release'">
             <RemoteDir>sound_mems.app\..\</RemoteDir>
-            <RemoteName>Test.entitlements</RemoteName>
+            <RemoteName>sound_mems.entitlements</RemoteName>
             <DeployClass>ProjectOSXEntitlements</DeployClass>
             <Operation>1</Operation>
             <LocalCommand/>
@@ -629,7 +647,7 @@
         </DeployFile>
         <DeployFile Include="$(BDS)\bin\delphi_PROJECTICNS.icns" Condition="'$(Config)'=='Release'">
             <RemoteDir>sound_mems.app\Contents\Resources\</RemoteDir>
-            <RemoteName>Test.icns</RemoteName>
+            <RemoteName>sound_mems.icns</RemoteName>
             <DeployClass>ProjectOSXResource</DeployClass>
             <Operation>1</Operation>
             <LocalCommand/>

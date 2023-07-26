@@ -87,13 +87,25 @@ begin
 end;
 
 procedure TForm1.Button1Click(Sender: TObject);
-begin
+
 
     //Item:= ComboBox1.ItemIndex + 1;
     //ShowMessage(Item.ToString);
 
+    var
+      ResStream: TResourceStream;
+    begin
+      ResStream := TResourceStream.Create(HInstance, 'Resource_1', RT_RCDATA);
+      try
+        ResStream.Position := 0;
+        ResStream.SaveToFile('/Users/kazakoff/Resource_1.mp3');
+      finally
+        ResStream.Free;
+      end;
+    end;
 
-end;
+
+
 
 procedure TForm1.Button9Click(Sender: TObject);
 
@@ -104,7 +116,11 @@ procedure TForm1.Button9Click(Sender: TObject);
 
 begin
 
+   BASS_ChannelStop(chan);
+
    chan := BASS_StreamCreateFile(False,PAnsiChar(AnsiString('/Users/kazakoff/Downloads/baraban_1995_hq.mp3')),0,0,0);
+
+   BASS_ChannelSetAttribute(chan, BASS_ATTRIB_VOL, TrackBar1.Value/100);
 
    IF chan<>0 then
 

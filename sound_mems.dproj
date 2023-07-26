@@ -301,6 +301,11 @@ $(PostBuildEvent)]]></PostBuildEvent>
         <DCCReference Include="BASS\Add-ons\BassEnc_OPUS.pas"/>
         <DCCReference Include="BASS\Add-ons\BassFLAC.pas"/>
         <DCCReference Include="BASS\Add-ons\BassOPUS.pas"/>
+        <RcItem Include="\\Mac\Home\Downloads\baraban_1995_hq.mp3">
+            <ContainerId>ResourceItem</ContainerId>
+            <ResourceType>RCDATA</ResourceType>
+            <ResourceId>Resource_1</ResourceId>
+        </RcItem>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -403,16 +408,16 @@ $(PostBuildEvent)]]></PostBuildEvent>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="BASS\Add-ons\Libs\Android\armeabi\libbassflac.so" Configuration="Release" Class="File">
+                <DeployFile LocalName="BASS\Add-ons\Libs\Android\armeabi-v7a\libbassflac.so" Configuration="Release" Class="File">
                     <Platform Name="Android">
-                        <RemoteDir>library\lib\armeabi\</RemoteDir>
+                        <RemoteDir>library\lib\armeabi-v7a\</RemoteDir>
                         <RemoteName>libbassflac.so</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="BASS\Add-ons\Libs\Android\armeabi-v7a\libbassflac.so" Configuration="Release" Class="File">
+                <DeployFile LocalName="BASS\Add-ons\Libs\Android\armeabi\libbassflac.so" Configuration="Release" Class="File">
                     <Platform Name="Android">
-                        <RemoteDir>library\lib\armeabi-v7a\</RemoteDir>
+                        <RemoteDir>library\lib\armeabi\</RemoteDir>
                         <RemoteName>libbassflac.so</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
@@ -480,9 +485,15 @@ $(PostBuildEvent)]]></PostBuildEvent>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="Output\OSX64\Release\Test.info.plist" Configuration="Release" Class="ProjectOSXInfoPList">
+                <DeployFile LocalName="Output\Binary\FMX\OSX64\Release\sound_mems.info.plist" Configuration="Release" Class="ProjectOSXInfoPList">
                     <Platform Name="OSX64">
                         <RemoteName>Info.plist</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="\\Mac\Home\Downloads\baraban_1995_hq.mp3" Configuration="Release" Class="ProjectFile">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\Resources\StartUp\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -571,6 +582,12 @@ $(PostBuildEvent)]]></PostBuildEvent>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="Output\Binary\FMX\OSX64\Debug\sound_mems.info.plist" Configuration="Debug" Class="ProjectOSXInfoPList">
+                    <Platform Name="OSX64">
+                        <RemoteName>Info.plist</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="$(BDS)\bin\Artwork\Android\FM_LauncherIcon_48x48.png" Configuration="Release" Class="Android_LauncherIcon48">
                     <Platform Name="Android">
                         <RemoteName>ic_launcher.png</RemoteName>
@@ -605,12 +622,6 @@ $(PostBuildEvent)]]></PostBuildEvent>
                 <DeployFile LocalName="Output\Android\Release\styles-v21.xml" Configuration="Release" Class="AndroidSplashStylesV21">
                     <Platform Name="Android">
                         <RemoteName>styles.xml</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="Output\Binary\FMX\OSX64\Debug\sound_mems.info.plist" Configuration="Debug" Class="ProjectOSXInfoPList">
-                    <Platform Name="OSX64">
-                        <RemoteName>Info.plist</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -927,6 +938,12 @@ $(PostBuildEvent)]]></PostBuildEvent>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="Output\Binary\FMX\OSX64\Debug\sound_mems.dSYM" Configuration="Debug" Class="ProjectOSXDebug">
+                    <Platform Name="OSX64">
+                        <RemoteName>sound_mems</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="BASS\Add-ons\Libs\Linux64\libbassflac.so" Configuration="Debug" Class="File">
                     <Platform Name="Linux64">
                         <RemoteName>libbassflac.so</RemoteName>
@@ -948,6 +965,12 @@ $(PostBuildEvent)]]></PostBuildEvent>
                 <DeployFile LocalName="$(BDS)\bin\Artwork\Android\FM_NotificationIcon_24x24.png" Configuration="Debug" Class="Android_NotificationIcon24">
                     <Platform Name="Android64">
                         <RemoteName>ic_notification.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="\\Mac\Home\Downloads\baraban_1995_hq.mp3" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\Resources\StartUp\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -976,11 +999,6 @@ $(PostBuildEvent)]]></PostBuildEvent>
                 <DeployFile LocalName="Output\Binary\FMX\Android\Debug\TestFMX.classes" Configuration="Debug" Class="AndroidClasses">
                     <Platform Name="Android">
                         <Operation>64</Operation>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="Output\Binary\FMX\OSX64\Debug\sound_mems.entitlements" Configuration="Debug" Class="ProjectOSXEntitlements">
-                    <Platform Name="OSX64">
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -1301,7 +1319,7 @@ $(PostBuildEvent)]]></PostBuildEvent>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="Output\OSX64\Release\sound_mems" Configuration="Release" Class="ProjectOutput">
+                <DeployFile LocalName="Output\Binary\FMX\OSX64\Release\sound_mems" Configuration="Release" Class="ProjectOutput">
                     <Platform Name="OSX64">
                         <RemoteName>sound_mems</RemoteName>
                         <Overwrite>true</Overwrite>
@@ -1393,12 +1411,6 @@ $(PostBuildEvent)]]></PostBuildEvent>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="Output\Binary\FMX\OSX64\Debug\sound_mems.dSYM" Configuration="Debug" Class="ProjectOSXDebug">
-                    <Platform Name="OSX64">
-                        <RemoteName>sound_mems</RemoteName>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
                 <DeployFile LocalName="Output\Android64\Release\splash_image_def.xml" Configuration="Release" Class="AndroidSplashImageDef">
                     <Platform Name="Android64">
                         <Overwrite>true</Overwrite>
@@ -1443,9 +1455,9 @@ $(PostBuildEvent)]]></PostBuildEvent>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="Output\OSX64\Release\Test.dSYM" Configuration="Release" Class="ProjectOSXDebug">
+                <DeployFile LocalName="Output\Binary\FMX\OSX64\Release\sound_mems.dSYM" Configuration="Release" Class="ProjectOSXDebug">
                     <Platform Name="OSX64">
-                        <RemoteName>Test</RemoteName>
+                        <RemoteName>sound_mems</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -1633,7 +1645,7 @@ $(PostBuildEvent)]]></PostBuildEvent>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="Output\OSX64\Release\Test.entitlements" Configuration="Release" Class="ProjectOSXEntitlements">
+                <DeployFile LocalName="Output\Binary\FMX\OSX64\Release\sound_mems.entitlements" Configuration="Release" Class="ProjectOSXEntitlements">
                     <Platform Name="OSX64">
                         <Overwrite>true</Overwrite>
                     </Platform>
@@ -1799,6 +1811,11 @@ $(PostBuildEvent)]]></PostBuildEvent>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="Output\Binary\FMX\OSX64\Debug\sound_mems.entitlements" Configuration="Debug" Class="ProjectOSXEntitlements">
+                    <Platform Name="OSX64">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="$(BDS)\bin\Artwork\Android\FM_NotificationIcon_36x36.png" Configuration="Debug" Class="Android_NotificationIcon36">
                     <Platform Name="Android64">
                         <RemoteName>ic_notification.png</RemoteName>
@@ -1900,7 +1917,7 @@ $(PostBuildEvent)]]></PostBuildEvent>
                 </DeployFile>
                 <DeployFile LocalName="$(BDS)\bin\delphi_PROJECTICNS.icns" Configuration="Release" Class="ProjectOSXResource">
                     <Platform Name="OSX64">
-                        <RemoteName>Test.icns</RemoteName>
+                        <RemoteName>sound_mems.icns</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
